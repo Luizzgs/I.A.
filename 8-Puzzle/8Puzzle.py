@@ -291,6 +291,6 @@ if __name__ == '__main__':
     #define a entrada inicial
     data = [4,0,5,8,7,3,2,1,6]
     #define o metodo de busca (bfs ou dfs)
-    metodo = 'bfs'
+    metodo = 'dfs'
     
     main(data, metodo)
