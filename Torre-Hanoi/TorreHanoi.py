@@ -56,7 +56,7 @@ def bfs(estadoInicial):
         boardVisited.add(node.map)
         if node.state == EstadoFinal:
             NoFinal = node
-            break  # No need to return Fila here, just break the loop when the goal is found
+            break  
         posiblePaths = subNodes(node)
 
         for path in posiblePaths:
